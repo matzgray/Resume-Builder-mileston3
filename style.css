@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+}
+.main-heading{
+    color: white;
+}
+
+.container{
+    width: 60%;
+    margin-left: 20%;
+    padding-left: 2%;
+    /* background-color: aquamarine; */
+
+    border-radius: 2%;
+    box-shadow: 1px 2px 10px 5px #9cb8a9;
+   
+   
+}
+
+.column{
+    width: 98%;
+    /* background-color: aquamarine; */
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.form-group{
+    margin-top: 20px;
+}
+input, textarea{
+    width: 98%;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+   
+   
+}
+
+.generate{
+    margin: 2%;
+    width: 30%;
+    height: 35px;
+    border-radius: 15px;
+    background-color: rgb(0, 179, 255);
+    color: white;
+    border: solid transparent;
+    margin-left: 34%;
+  
+}
+
+.add-btn{
+    width: 30%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(0, 179, 255);
+    margin-top: 20px;
+    border: solid transparent;
+    color: white;
+}
+/* 
+#cv-form{
+    display: none;
+} */
+
+#cv-templete{
+    display: none;
+    border: 1px solid gray;
+}
+/* templete */
+
+.cv-container{
+    
+    display: flex;
+    width: 66%;
+    margin: 14%;
+    box-shadow: 1px 2px 10px 5px #6ea78a;
+    border-radius: 2%;
+    
+    
+}
+.flex-templete{
+    display: flex;
+    
+}
+
+.my-img{
+    width: 98%;
+    border-radius: 50% ;
+   padding: 1%;
+   box-shadow: 1px 2px 10px 5px #f0f2f1;
+   
+}
+
+.column1{
+    width: 30%;
+   box-sizing: border-box;
+    padding: 5%;
+    
+    
+   border-radius: 2% 2%;
+    
+    background-color: gray;
+    font-style: italic;
+}
+
+.column2{
+   
+  
+    width: 70%;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.text-center{
+    text-align: center;
+    font-weight: 980;
+}
+
+.card{
+  
+    padding: 1%;
+   
+    box-sizing: border-box;
+    font-size: 90%;
+    font-style: italic;
+    
+   
+    
+ 
+}
+
+.card-header{
+    height: 10%;
+    padding: 5px;
+   margin-left: 6%;
+ margin-right: 6%;
+   
+     background-color: gray;
+     border-radius: 2%;
+     
+    
+ }
+ 
+ .card-body{
+     padding-left: 20px;
+     box-sizing: border-box;
+     margin-left: 6%;
+ }
+
+#nameT2{
+    font-size: xx-large;
+    font-style: italic;
+}
+ 
+ 
+
+
+  /* Media queries*/
+
+/* small screens (less than 768px) */
+@media (max-width: 768px) {
+
+    .container{
+        width: 96%;
+        margin-left: 2%;
+        padding-left: 2%;
+        border-radius: 2%;  
+     }
+    .flex-templete{
+      
+      flex-direction: column;
+      padding-right: 0%;
+    }
+    .column1{
+      width: 100%;
+    }
+    .column2 {
+      width: 100%;
+      
+    }
+  }
+
+    /* medium screens (between 768px and 1024px) */
+    @media (min-width: 769px) and (max-width: 1024px) {
+
+        .container{
+            width: 80%;
+            margin-left: 10%;
+            padding-left: 2%;
+            border-radius: 2%;  
+         }
+        .flex-templete{
+         
+          flex-direction: row;
+        }
+        .column1{
+          width: 50%;
+        }
+        .column2{
+          width: 50%;
+        }
+      }
